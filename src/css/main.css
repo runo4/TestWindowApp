@@ -46,7 +46,8 @@ body {
 .main-area {
     /* ヘッダーが34px、フッターが20pxのため余白に */
     padding: 34px 0px 20px 0px;
-    height: 546px;
+    height: 100%;
+    overflow-y: hidden;
 }
 
 .main-container {
