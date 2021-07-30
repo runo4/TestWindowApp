@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #e4edf1;
+}
+
+/* ヘッダーエリア */
+.header-area {
+    position: fixed;
+    -webkit-app-region: drag; /* draggable */
+    height: 34px;
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    height: 100%;
+}
+
+.button-tools{
+    width: 10%;
+}
+
+.title-bar{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    font-size: 14px;
+}
+
+.button-control{
+    display: flex;
+    width: 160px;
+}
+
+/* メインエリア */
+.main-area {
+    /* ヘッダーが34px、フッターが20pxのため余白に */
+    padding: 34px 0px 20px 0px;
+    height: 546px;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+/* フッターエリア */
+.footer-area {
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    bottom: 0px;
+}
